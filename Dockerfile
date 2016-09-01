@@ -12,6 +12,7 @@ ADD images/background.jpg /app/background.jpg
 ADD images/transparent.png /app/transparent.png
 ADD images/logo.png /app/logo.png
 ADD images/AWS.png /app/AWS.png
+ADD images/mantl.png /app/mantl.png
 ADD images/OpenStack.png /app/OpenStack.png
 
 EXPOSE 80
