@@ -1,10 +1,3 @@
-<?php
-	$cloud = 'AWS';
-
-	if (strpos($_ENV['HOST'], 'internal')) {
-		$cloud = 'OpenStack';
-	}
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
@@ -42,10 +35,9 @@
 
       <div class="slideshow"> 
       <div style="position: absolute; left: 55%; top: 12%; z-index: 10000; text-align: center; color: black;">
-      	<h1 style="color: black !important; text-shadow: none !important; font-size: 2.5em;">Cisco Mantl on <?=$cloud?></h1>
+      	<h1 style="color: black !important; text-shadow: none !important; font-size: 2.5em;">Cisco Mantl</h1>
 	<p style="font-size: 2em;">Container ID: <?=$_ENV['HOSTNAME']?><br />&nbsp;</p>
-      	<img src="<?=$cloud?>.png"><br />
-<!--	<img src="mantl.png">-->
+	<img src="mantl.png">
 </div>
       <ul class="slideshow">
           <li class="show"><img width="900" height="350" src="banner-1.jpg" alt="M.E.C. :: Miggins Employee Connection" /></li>
